@@ -8,20 +8,19 @@ const SLIDES = [
   { img: 'https://images.unsplash.com/photo-1540946485063-a40da27545f8?q=80&w=800&auto=format&fit=crop', title: 'Helipad Access', desc: 'Arrive anywhere in the world in absolute style and luxury.' },
   { img: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=800&auto=format&fit=crop', title: 'Master Suite', desc: 'Indulge in opulent bedrooms with panoramic ocean-view windows.' },
   { img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=800&auto=format&fit=crop', title: 'Sundeck Retreat', desc: 'Bask in golden light on our expansive sun-drenched deck.' },
-  { img: 'https://images.unsplash.com/photo-1559268808-14227f719363?q=80&w=800&auto=format&fit=crop', title: 'Infinity Pool', desc: 'Float above the horizon in your private onboard infinity pool.' },
+  { img: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop', title: 'Infinity Pool', desc: 'Float above the horizon in your private onboard infinity pool.' },
 ];
 
 const coverflowStyle = `
   .coverflow-container {
     position: relative;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     height: 430px;
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 1200px;
     overflow: visible;
   }
   .coverflow-track {
@@ -31,7 +30,6 @@ const coverflowStyle = `
     display: flex;
     justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
   }
   .coverflow-card {
     position: absolute;
@@ -81,54 +79,74 @@ const coverflowStyle = `
     opacity: 1;
   }
   .coverflow-card.active {
-    transform: translateX(0) scale(1.1) translateZ(0);
+    transform: translateX(0) scale(1.1);
     z-index: 10;
   }
   .coverflow-card.prev1 {
-    transform: translateX(-85%) scale(0.9) translateZ(-100px);
+    transform: translateX(-85%) scale(0.9);
     z-index: 9;
   }
   .coverflow-card.next1 {
-    transform: translateX(85%) scale(0.9) translateZ(-100px);
+    transform: translateX(85%) scale(0.9);
     z-index: 9;
   }
   .coverflow-card.prev2 {
-    transform: translateX(-155%) scale(0.75) translateZ(-200px);
+    transform: translateX(-155%) scale(0.75);
     z-index: 8;
   }
   .coverflow-card.next2 {
-    transform: translateX(155%) scale(0.75) translateZ(-200px);
+    transform: translateX(155%) scale(0.75);
     z-index: 8;
   }
   .coverflow-card.hidden {
     opacity: 0;
     pointer-events: none;
-    transform: scale(0.5) translateZ(-300px);
+    transform: scale(0.5);
     z-index: 1;
   }
   
-  .carousel-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-  .carousel-nav button {
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    border: 1px solid var(--border-color);
-    background: transparent;
-    color: var(--text-primary);
+    border: 1px solid var(--border-color, #ccc);
+    background: var(--bg-color, #fff);
+    color: var(--text-primary, #000);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    z-index: 20;
     transition: all 0.3s ease;
   }
-  .carousel-nav button:hover {
-    background: var(--text-primary);
-    color: var(--bg-color);
+  .carousel-btn:hover {
+    background: var(--text-primary, #000);
+    color: var(--bg-color, #fff);
+  }
+  .carousel-btn.prev {
+    left: 15px;
+  }
+  .carousel-btn.next {
+    right: 15px;
+  }
+  @media (min-width: 768px) {
+    .carousel-btn.prev {
+      left: 30px;
+    }
+    .carousel-btn.next {
+      right: 30px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .carousel-btn.prev {
+      left: 40px;
+    }
+    .carousel-btn.next {
+      right: 40px;
+    }
   }
 `;
 
@@ -157,6 +175,10 @@ export default function Yatchlifestyle() {
       </div>
 
       <div className="coverflow-container">
+        <button className="carousel-btn prev" onClick={prevSlide} aria-label="Previous Slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        
         <div className="coverflow-track">
           {SLIDES.map((slide, i) => (
             <div
@@ -173,13 +195,8 @@ export default function Yatchlifestyle() {
             </div>
           ))}
         </div>
-      </div>
 
-      <div className="carousel-nav">
-        <button onClick={prevSlide} aria-label="Previous Slide">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-        </button>
-        <button onClick={nextSlide} aria-label="Next Slide">
+        <button className="carousel-btn next" onClick={nextSlide} aria-label="Next Slide">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6"/></svg>
         </button>
       </div>
