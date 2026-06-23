@@ -4,43 +4,43 @@ import React from 'react';
 const TESTIMONIALS = [
   {
     img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop',
-    quote: '"The most extraordinary yacht experience we\'ve ever had. Every detail was perfect."',
+    quote: '"The most extraordinary yacht charter experience we\'ve ever had. Every nautical mile was perfect."',
     name: 'James Anderson',
     title: 'Private Entrepreneur',
   },
   {
     img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=150&auto=format&fit=crop',
-    quote: '"Luxury, comfort, and service beyond imagination. We can\'t wait to sail again."',
+    quote: '"Luxury, comfort, and service beyond imagination. We can\'t wait to sail on this magnificent yacht again."',
     name: 'Sophia Martinez',
     title: 'Travel Journalist',
   },
   {
     img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop',
-    quote: '"YACHTA redefines what it means to travel in luxury. Absolutely breathtaking!"',
+    quote: '"YACHTA redefines what it means to travel the seas in luxury. Absolutely breathtaking!"',
     name: 'Daniel Robert',
     title: 'CEO, Nexgen Capital',
   },
   {
     img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
-    quote: '"From the moment we stepped aboard, we knew this was unlike anything else. Pure magic."',
+    quote: '"From the moment we stepped aboard the superyacht, we knew this was unlike any other voyage. Pure magic on the water."',
     name: 'Elena Vasquez',
     title: 'Lifestyle Curator',
   },
   {
     img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop',
-    quote: '"The crew, the destinations, the attention to detail — flawless in every single way."',
+    quote: '"The crew, the oceanic destinations, and the attention to detail — a flawless luxury yachting experience."',
     name: 'Marcus Chen',
     title: 'Investment Banker',
   },
   {
     img: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop',
-    quote: '"We celebrated our anniversary on YACHTA and it exceeded every expectation we had."',
+    quote: '"We celebrated our anniversary on YACHTA and sailing the coast exceeded every expectation we had."',
     name: 'Isabelle Laurent',
     title: 'Art Director, Paris',
   },
   {
     img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=150&auto=format&fit=crop',
-    quote: '"World-class service, stunning views, and a vessel that feels like a floating palace."',
+    quote: '"World-class service, stunning ocean views, and a vessel that truly feels like a floating palace."',
     name: 'Richard Thornton',
     title: 'Retired Admiral',
   },
@@ -49,9 +49,9 @@ const TESTIMONIALS = [
 const ARCH_IMAGES = [
   'https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1559268808-14227f719363?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1520690082725-b021d7465f29?q=80&w=600&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=600&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=600&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=600&auto=format&fit=crop',
@@ -59,7 +59,7 @@ const ARCH_IMAGES = [
   'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1540946485063-a40da27545f8?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1579621946808-724e8e453fa8?q=80&w=600&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=600&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=600&auto=format&fit=crop',
 ];
 
@@ -225,8 +225,8 @@ export default function Testimonials() {
 
       <div className="t-pill">Testimonials</div>
       <h2 className="t-heading">
-        Trusted by creatives and leaders <br/>
-        <span className="t-heading-light">from various industries</span>
+        Trusted by Elite Sailors <br/>
+        <span className="t-heading-light">and Yachting Enthusiasts</span>
       </h2>
 
       {/* Marquee Testimonials */}
