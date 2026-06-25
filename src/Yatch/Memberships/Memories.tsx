@@ -120,44 +120,45 @@ export default function Memories() {
         </div>
 
         {/* Bottom Feature Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
           
           {/* Card 1 */}
           <div style={{ 
             position: 'relative',
             backgroundColor: '#ffffff', 
-            borderRadius: '10px', 
-            boxShadow: '0 2px 10px rgba(0,0,0,0.02)',
+            borderRadius: '12px', 
+            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
             border: '1px solid #eaeaea',
             overflow: 'hidden',
-            minHeight: '140px'
+            minHeight: '160px',
+            display: 'flex',
+            alignItems: 'center'
           }}>
-            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '50%', zIndex: 0 }}>
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', zIndex: 0 }}>
               <img src="/Images/Yacht at sea.png" alt="Private Charter" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.9) 30%, transparent 100%)' }}></div>
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.95) 15%, transparent 100%)' }}></div>
             </div>
-            <div style={{ position: 'relative', zIndex: 1, padding: '1.5rem', width: '70%', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+            <div style={{ position: 'relative', zIndex: 1, padding: '2rem', width: '65%', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
               <div style={{ 
                 backgroundColor: '#f0f5fa', 
                 borderRadius: '50%', 
-                width: '40px', 
-                height: '40px', 
+                width: '50px', 
+                height: '50px', 
                 display: 'flex', 
                 alignItems: 'center', 
                 justifyContent: 'center',
                 flexShrink: 0
               }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M2 21c.6.5 1.2 1 2.5 1 1.3 0 2.5-.5 3.5-1.2C9 20 10.2 19.5 11.5 19.5c1.3 0 2.5.5 3.5 1.2 1 .7 2.2 1.2 3.5 1.2 1.3 0 1.9-.5 2.5-1"></path>
                   <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"></path>
                   <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"></path>
                 </svg>
               </div>
               <div>
-                <h4 style={{ fontSize: '1.1rem', color: '#0f172a', marginBottom: '0.3rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Private Charter</h4>
-                <div style={{ width: '25px', height: '2px', backgroundColor: '#0284c7', marginBottom: '0.75rem' }}></div>
-                <p style={{ color: '#666', fontSize: '0.8rem', lineHeight: '1.4', margin: 0 }}>
-                  Enjoy complete privacy with customized itineraries.
+                <h4 style={{ fontSize: '1.25rem', color: '#0f172a', marginBottom: '0.4rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Private Charter</h4>
+                <p style={{ color: '#555', fontSize: '0.85rem', lineHeight: '1.5', margin: 0 }}>
+                  Enjoy complete privacy with fully customized itineraries tailored exclusively for your journey.
                 </p>
               </div>
             </div>
@@ -167,28 +168,30 @@ export default function Memories() {
           <div style={{ 
             position: 'relative',
             backgroundColor: '#ffffff', 
-            borderRadius: '10px', 
-            boxShadow: '0 2px 10px rgba(0,0,0,0.02)',
+            borderRadius: '12px', 
+            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
             border: '1px solid #eaeaea',
             overflow: 'hidden',
-            minHeight: '140px'
+            minHeight: '160px',
+            display: 'flex',
+            alignItems: 'center'
           }}>
-            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '50%', zIndex: 0 }}>
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', zIndex: 0 }}>
               <img src="/Images/Memories Work.png" alt="Personalized Service" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.9) 30%, transparent 100%)' }}></div>
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.95) 15%, transparent 100%)' }}></div>
             </div>
-            <div style={{ position: 'relative', zIndex: 1, padding: '1.5rem', width: '70%', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+            <div style={{ position: 'relative', zIndex: 1, padding: '2rem', width: '65%', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
               <div style={{ 
                 backgroundColor: '#f0f5fa', 
                 borderRadius: '50%', 
-                width: '40px', 
-                height: '40px', 
+                width: '50px', 
+                height: '50px', 
                 display: 'flex', 
                 alignItems: 'center', 
                 justifyContent: 'center',
                 flexShrink: 0
               }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 2v20"></path>
                   <path d="M18.5 7.5c-3-2-7-2-10 0"></path>
                   <path d="M5.5 12.5c3 2 7 2 10 0"></path>
@@ -196,10 +199,9 @@ export default function Memories() {
                 </svg>
               </div>
               <div>
-                <h4 style={{ fontSize: '1.1rem', color: '#0f172a', marginBottom: '0.3rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Personalized Service</h4>
-                <div style={{ width: '25px', height: '2px', backgroundColor: '#0284c7', marginBottom: '0.75rem' }}></div>
-                <p style={{ color: '#666', fontSize: '0.8rem', lineHeight: '1.4', margin: 0 }}>
-                  Professional crew and five-star hospitality.
+                <h4 style={{ fontSize: '1.25rem', color: '#0f172a', marginBottom: '0.4rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Personalized Service</h4>
+                <p style={{ color: '#555', fontSize: '0.85rem', lineHeight: '1.5', margin: 0 }}>
+                  Professional crew, private chefs, concierge assistance, and five-star hospitality throughout your voyage.
                 </p>
               </div>
             </div>
@@ -209,38 +211,39 @@ export default function Memories() {
           <div style={{ 
             position: 'relative',
             backgroundColor: '#ffffff', 
-            borderRadius: '10px', 
-            boxShadow: '0 2px 10px rgba(0,0,0,0.02)',
+            borderRadius: '12px', 
+            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
             border: '1px solid #eaeaea',
             overflow: 'hidden',
-            minHeight: '140px'
+            minHeight: '160px',
+            display: 'flex',
+            alignItems: 'center'
           }}>
-            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '50%', zIndex: 0 }}>
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', zIndex: 0 }}>
               <img src="/Images/LEVEL -1.png" alt="World-Class Fleet" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.9) 30%, transparent 100%)' }}></div>
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.95) 15%, transparent 100%)' }}></div>
             </div>
-            <div style={{ position: 'relative', zIndex: 1, padding: '1.5rem', width: '70%', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+            <div style={{ position: 'relative', zIndex: 1, padding: '2rem', width: '65%', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
               <div style={{ 
                 backgroundColor: '#f0f5fa', 
                 borderRadius: '50%', 
-                width: '40px', 
-                height: '40px', 
+                width: '50px', 
+                height: '50px', 
                 display: 'flex', 
                 alignItems: 'center', 
                 justifyContent: 'center',
                 flexShrink: 0
               }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="5" r="3"></circle>
                   <line x1="12" y1="22" x2="12" y2="8"></line>
                   <path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
                 </svg>
               </div>
               <div>
-                <h4 style={{ fontSize: '1.1rem', color: '#0f172a', marginBottom: '0.3rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>World-Class Fleet</h4>
-                <div style={{ width: '25px', height: '2px', backgroundColor: '#0284c7', marginBottom: '0.75rem' }}></div>
-                <p style={{ color: '#666', fontSize: '0.8rem', lineHeight: '1.4', margin: 0 }}>
-                  Curated collection of award-winning yachts.
+                <h4 style={{ fontSize: '1.25rem', color: '#0f172a', marginBottom: '0.4rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>World-Class Fleet</h4>
+                <p style={{ color: '#555', fontSize: '0.85rem', lineHeight: '1.5', margin: 0 }}>
+                  Choose from a carefully curated collection of award-winning luxury yachts for every occasion.
                 </p>
               </div>
             </div>
@@ -250,37 +253,38 @@ export default function Memories() {
           <div style={{ 
             position: 'relative',
             backgroundColor: '#ffffff', 
-            borderRadius: '10px', 
-            boxShadow: '0 2px 10px rgba(0,0,0,0.02)',
+            borderRadius: '12px', 
+            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
             border: '1px solid #eaeaea',
             overflow: 'hidden',
-            minHeight: '140px'
+            minHeight: '160px',
+            display: 'flex',
+            alignItems: 'center'
           }}>
-            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '50%', zIndex: 0 }}>
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', zIndex: 0 }}>
               <img src="/Images/Memories Love.png" alt="Iconic Destinations" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.9) 30%, transparent 100%)' }}></div>
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.95) 15%, transparent 100%)' }}></div>
             </div>
-            <div style={{ position: 'relative', zIndex: 1, padding: '1.5rem', width: '70%', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+            <div style={{ position: 'relative', zIndex: 1, padding: '2rem', width: '65%', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
               <div style={{ 
                 backgroundColor: '#f0f5fa', 
                 borderRadius: '50%', 
-                width: '40px', 
-                height: '40px', 
+                width: '50px', 
+                height: '50px', 
                 display: 'flex', 
                 alignItems: 'center', 
                 justifyContent: 'center',
                 flexShrink: 0
               }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="12" r="10"></circle>
                   <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
                 </svg>
               </div>
               <div>
-                <h4 style={{ fontSize: '1.1rem', color: '#0f172a', marginBottom: '0.3rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Iconic Destinations</h4>
-                <div style={{ width: '25px', height: '2px', backgroundColor: '#0284c7', marginBottom: '0.75rem' }}></div>
-                <p style={{ color: '#666', fontSize: '0.8rem', lineHeight: '1.4', margin: 0 }}>
-                  Cruise through countless breathtaking coastlines.
+                <h4 style={{ fontSize: '1.25rem', color: '#0f172a', marginBottom: '0.4rem', fontFamily: '"Playfair Display", serif', fontWeight: '600' }}>Iconic Destinations</h4>
+                <p style={{ color: '#555', fontSize: '0.85rem', lineHeight: '1.5', margin: 0 }}>
+                  Cruise through the Mediterranean, Maldives, Dubai, Monaco, and countless breathtaking coastlines.
                 </p>
               </div>
             </div>
