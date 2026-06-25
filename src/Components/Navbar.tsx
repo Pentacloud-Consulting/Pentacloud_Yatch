@@ -22,8 +22,8 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
       <Link href="/" className="nav-logo">YACHTA</Link>
       <div className="nav-links">
-        <Link href="#">HOME</Link>
-        <Link href="#">FLEET</Link>
+        <Link href="/">HOME</Link>
+        <Link href="/memberships">MEMBERSHIPS</Link>
         <Link href="#">DESTINATIONS</Link>
         <Link href="#">EXPERIENCE</Link>
         <Link href="#">ABOUT US</Link>

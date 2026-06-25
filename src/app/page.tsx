@@ -1,14 +1,14 @@
 import Navbar from "@/Components/Navbar";
-import Yatchhero from "@/Yatch/Yatchhero";
-import HeroStats from "@/Yatch/HeroStats";
-import CreaftedPerpection from "@/Yatch/CreaftedPerpection";
-import Interactive from "@/Yatch/Interactive";
-import Yatchlifestyle from "@/Yatch/Yatchlifestyle";
-import Crafterdbeyound from "@/Yatch/Crafterdbeyound";
-import Destination from "@/Yatch/Destination";
-import Outfleet from "@/Yatch/Outfleet";
-import Testimonials from "@/Yatch/Testimonials";
-import CTA from "@/Yatch/CTA";
+import Yatchhero from "@/Yatch/Home/Yatchhero";
+import HeroStats from "@/Yatch/Home/HeroStats";
+import CreaftedPerpection from "@/Yatch/Home/CreaftedPerpection";
+import Interactive from "@/Yatch/Home/Interactive";
+import Yatchlifestyle from "@/Yatch/Home/Yatchlifestyle";
+import Crafterdbeyound from "@/Yatch/Home/Crafterdbeyound";
+import Destination from "@/Yatch/Home/Destination";
+import Outfleet from "@/Yatch/Home/Outfleet";
+import Testimonials from "@/Yatch/Home/Testimonials";
+import CTA from "@/Yatch/Home/CTA";
 import Footer from "@/Components/Footer";
 
 export default function Home() {
