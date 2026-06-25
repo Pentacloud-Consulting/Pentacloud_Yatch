@@ -171,14 +171,15 @@ body {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: transparent;
-  border-bottom: 1px solid transparent;
+  background: rgba(7, 11, 20, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.4s ease-in-out;
 }
 
 .navbar-scrolled {
-  background: rgba(7, 11, 20, 0.85);
-  backdrop-filter: blur(16px);
+  background: rgba(7, 11, 20, 0.95);
+  backdrop-filter: blur(20px);
   padding: 1rem 5%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);

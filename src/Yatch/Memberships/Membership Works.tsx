@@ -24,7 +24,7 @@ export default function MembershipWorks() {
         </div>
         <div style={{ flex: '1 1 500px' }}>
           <img 
-            src="/Yacht/yatch2.jpg" 
+            src="/Images/Memories Work.png" 
             alt="Family on yacht" 
             style={{ width: '100%', height: 'auto', borderRadius: '16px 16px 16px 16px', objectFit: 'cover', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }} 
           />
@@ -32,8 +32,8 @@ export default function MembershipWorks() {
       </section>
 
       {/* Section 2: Why Our Members Love Us */}
-      <section style={{ padding: '4rem 5%', backgroundColor: '#ffffff' }}>
-        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+      <section style={{ padding: '2rem 5%', backgroundColor: '#ffffff' }}>
+        <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
           <span style={{ color: '#0284c7', textTransform: 'uppercase', letterSpacing: '1.5px', fontSize: '0.85rem', fontWeight: 'bold' }}>
             WHY OUR MEMBERS LOVE US
           </span>
@@ -45,7 +45,7 @@ export default function MembershipWorks() {
           position: 'relative', 
           borderRadius: '16px',
           overflow: 'hidden',
-          minHeight: '450px',
+          minHeight: '380px',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
@@ -53,41 +53,40 @@ export default function MembershipWorks() {
         }}>
           {/* Background Image */}
           <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-             <img src="/Yacht/yatch3.jpg" alt="Marina Background" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 40%, transparent 100%)' }}></div>
+             <img src="/Images/Memories Love.png" alt="Marina Background" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
 
           {/* Cards List */}
-          <div style={{ position: 'relative', zIndex: 1, padding: '2.5rem', width: '100%', maxWidth: '450px', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+          <div style={{ position: 'relative', zIndex: 1, padding: '1.5rem', width: '100%', maxWidth: '450px', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             
             {[
-              { icon: 'M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M4 22v-7', color: '#0f172a', title: 'PREMIUM BOATS', desc: 'Ready when you are' },
-              { icon: 'M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z', color: '#d48a37', title: 'ACCESS TO FANTASTIC BOATING DESTINATIONS', desc: 'Across multiple states' },
-              { icon: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2 M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75', color: '#0f172a', title: 'PROFESSIONAL, DEDICATED DOCK STAFF', desc: 'To assist with every adventure' },
-              { icon: 'M12 2v4 M12 18v4 M4.93 4.93l2.83 2.83 M16.24 16.24l2.83 2.83 M2 12h4 M18 12h4 M4.93 19.07l2.83-2.83 M16.24 7.76l2.83-2.83', color: '#d48a37', title: 'NO MAINTENANCE, STORAGE, CLEANING OR FUELING HASSLES', desc: 'We take care of everything' },
-              { icon: 'M3 4h18v18H3z M16 2v4 M8 2v4 M3 10h18 M8 14h.01 M12 14h.01 M16 14h.01 M8 18h.01 M12 18h.01 M16 18h.01', color: '#0f172a', title: 'GREAT BOAT AVAILABILITY', desc: 'Through proper planning & membership capacity' }
+              { icon: 'M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M4 22v-7', color: '#0284c7', title: 'PREMIUM BOATS', desc: 'Ready when you are' },
+              { icon: 'M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z', color: '#0ea5e9', title: 'ACCESS TO FANTASTIC BOATING DESTINATIONS', desc: 'Across multiple states' },
+              { icon: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2 M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75', color: '#0284c7', title: 'PROFESSIONAL, DEDICATED DOCK STAFF', desc: 'To assist with every adventure' },
+              { icon: 'M12 2v4 M12 18v4 M4.93 4.93l2.83 2.83 M16.24 16.24l2.83 2.83 M2 12h4 M18 12h4 M4.93 19.07l2.83-2.83 M16.24 7.76l2.83-2.83', color: '#0ea5e9', title: 'NO MAINTENANCE, STORAGE, CLEANING OR FUELING HASSLES', desc: 'We take care of everything' },
+              { icon: 'M3 4h18v18H3z M16 2v4 M8 2v4 M3 10h18 M8 14h.01 M12 14h.01 M16 14h.01 M8 18h.01 M12 18h.01 M16 18h.01', color: '#0284c7', title: 'GREAT BOAT AVAILABILITY', desc: 'Through proper planning & membership capacity' }
             ].map((item, i) => (
-              <div key={i} style={{ backgroundColor: '#ffffff', borderRadius: '8px', padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', gap: '1rem', border: '1px solid #eaeaea', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                <div style={{ backgroundColor: item.color, width: '40px', height: '40px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <div key={i} style={{ backgroundColor: '#ffffff', borderRadius: '8px', padding: '0.75rem 1rem', display: 'flex', alignItems: 'center', gap: '1rem', border: '1px solid #eaeaea', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                <div style={{ backgroundColor: item.color, width: '36px', height: '36px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ overflow: 'visible' }}>
                      <path d={item.icon}></path>
                    </svg>
                 </div>
                 <div>
-                  <h4 style={{ color: '#0f172a', fontSize: '0.9rem', fontWeight: 'bold', marginBottom: '0.25rem', lineHeight: '1.2' }}>{item.title}</h4>
-                  <p style={{ color: '#555', fontSize: '0.8rem', margin: 0 }}>{item.desc}</p>
+                  <h4 style={{ color: '#0f172a', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '0.15rem', lineHeight: '1.2' }}>{item.title}</h4>
+                  <p style={{ color: '#555', fontSize: '0.75rem', margin: 0 }}>{item.desc}</p>
                 </div>
               </div>
             ))}
           </div>
 
           {/* Banner */}
-          <div style={{ position: 'relative', zIndex: 1, backgroundColor: '#0f172a', margin: '0 3rem 3rem 3rem', padding: '1.5rem', borderRadius: '8px', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-             <svg width="40" height="12" viewBox="0 0 40 12" fill="none" stroke="#d48a37" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <div style={{ position: 'relative', zIndex: 1, backgroundColor: '#0284c7', margin: '0 2rem 2rem 2rem', padding: '1.25rem', borderRadius: '8px', display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+             <svg width="40" height="12" viewBox="0 0 40 12" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                <path d="M0 6 Q 5 0, 10 6 T 20 6 T 30 6 T 40 6"></path>
              </svg>
              <h3 style={{ color: '#fff', fontSize: '1.1rem', margin: 0, fontWeight: '600', letterSpacing: '0.5px' }}>
-               MORE TIME ON THE WATER. LESS WORRY. <span style={{ color: '#d48a37' }}>MORE MEMORIES.</span>
+               MORE TIME ON THE WATER. LESS WORRY. <span style={{ color: '#e0f2fe' }}>MORE MEMORIES.</span>
              </h3>
           </div>
         </div>
@@ -133,17 +132,17 @@ export default function MembershipWorks() {
               
               {/* Card 1 */}
               <div style={{ flex: '1 1 200px', border: '1px solid #cce0ff', backgroundColor: '#ffffff', borderRadius: '8px', padding: '2rem 1.5rem 1rem 1.5rem', position: 'relative', textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.02)' }}>
-                <div style={{ position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', width: '30px', height: '30px', backgroundColor: '#d48a37', color: '#fff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+                <div style={{ position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', width: '30px', height: '30px', backgroundColor: '#0284c7', color: '#fff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
                   1
                 </div>
-                <div style={{ backgroundColor: '#0f172a', width: '50px', height: '50px', borderRadius: '50%', margin: '0 auto 1rem auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <div style={{ backgroundColor: '#f0f9ff', width: '50px', height: '50px', borderRadius: '50%', margin: '0 auto 1rem auto', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid #bfdbfe' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
                   </svg>
                 </div>
                 <p style={{ color: '#0f172a', fontSize: '0.85rem', marginBottom: '0.25rem' }}>Select Your</p>
                 <h4 style={{ color: '#0f172a', fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>MEMBERSHIP TYPE</h4>
-                <p style={{ color: '#d48a37', fontSize: '0.85rem', fontWeight: '600', marginBottom: '1.5rem' }}>Your Membership Plan</p>
+                <p style={{ color: '#0284c7', fontSize: '0.85rem', fontWeight: '600', marginBottom: '1.5rem' }}>Your Membership Plan</p>
                 <div style={{ width: '100%', height: '1px', backgroundColor: '#eaeaea', marginBottom: '1.5rem' }}></div>
                 <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5' }}>
                   Choose from a variety of membership options, each tailored to fit your boating needs, days on the water, and lifestyle.
@@ -152,17 +151,17 @@ export default function MembershipWorks() {
 
               {/* Card 2 */}
               <div style={{ flex: '1 1 200px', border: '1px solid #cce0ff', backgroundColor: '#ffffff', borderRadius: '8px', padding: '2rem 1.5rem 1rem 1.5rem', position: 'relative', textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.02)' }}>
-                <div style={{ position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', width: '30px', height: '30px', backgroundColor: '#d48a37', color: '#fff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+                <div style={{ position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', width: '30px', height: '30px', backgroundColor: '#0284c7', color: '#fff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
                   2
                 </div>
-                <div style={{ backgroundColor: '#0f172a', width: '50px', height: '50px', borderRadius: '50%', margin: '0 auto 1rem auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <div style={{ backgroundColor: '#f0f9ff', width: '50px', height: '50px', borderRadius: '50%', margin: '0 auto 1rem auto', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid #bfdbfe' }}>
+                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M4 22v-7"></path>
                    </svg>
                 </div>
                 <p style={{ color: '#0f172a', fontSize: '0.85rem', marginBottom: '0.25rem' }}>Choose Your</p>
                 <h4 style={{ color: '#0f172a', fontSize: '1.1rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>PIER LEVEL</h4>
-                <p style={{ color: '#d48a37', fontSize: '0.85rem', fontWeight: '600', marginBottom: '1.5rem' }}>Your Boating Adventures Start at Your Home</p>
+                <p style={{ color: '#0284c7', fontSize: '0.85rem', fontWeight: '600', marginBottom: '1.5rem' }}>Your Boating Adventures Start at Your Home</p>
                 <div style={{ width: '100%', height: '1px', backgroundColor: '#eaeaea', marginBottom: '1.5rem' }}></div>
                 <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5' }}>
                   Higher Pier Levels unlock access to our best boats and most destinations.
@@ -171,14 +170,14 @@ export default function MembershipWorks() {
             </div>
 
             {/* Banner */}
-            <div style={{ backgroundColor: '#0f172a', borderRadius: '8px', padding: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.5rem', marginTop: '1rem' }}>
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <div style={{ backgroundColor: '#f0f9ff', border: '1px solid #bfdbfe', borderRadius: '8px', padding: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.5rem', marginTop: '1rem' }}>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
               </svg>
               <div>
-                <h4 style={{ color: '#fff', fontSize: '1rem', fontWeight: 'bold', marginBottom: '0.25rem' }}>JUST TWO DECISIONS. ENDLESS MEMORIES ON THE WATER.</h4>
-                <p style={{ color: '#ccc', fontSize: '0.85rem', margin: 0 }}>
-                  It's never been this simple to <span style={{ color: '#d48a37' }}>maximize</span> your boating experience.
+                <h4 style={{ color: '#0f172a', fontSize: '1rem', fontWeight: 'bold', marginBottom: '0.25rem' }}>JUST TWO DECISIONS. ENDLESS MEMORIES ON THE WATER.</h4>
+                <p style={{ color: '#555', fontSize: '0.85rem', margin: 0 }}>
+                  It's never been this simple to <span style={{ color: '#0284c7' }}>maximize</span> your boating experience.
                 </p>
               </div>
             </div>
@@ -196,7 +195,7 @@ export default function MembershipWorks() {
             
             <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
                <div style={{ backgroundColor: '#e6f0fa', width: '60px', height: '60px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f172a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                    <circle cx="12" cy="5" r="3"></circle><line x1="12" y1="22" x2="12" y2="8"></line><path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
                  </svg>
                </div>
@@ -213,7 +212,7 @@ export default function MembershipWorks() {
 
             <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
                <div style={{ backgroundColor: '#e6f0fa', width: '60px', height: '60px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f172a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                    <circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
                  </svg>
                </div>
@@ -230,21 +229,21 @@ export default function MembershipWorks() {
 
           {/* Right Col */}
           <div style={{ flex: '1 1 500px' }}>
-             <img src="/Yacht/yatch4.jpg" alt="Yacht at sea" style={{ width: '100%', height: '100%', minHeight: '300px', objectFit: 'cover', borderRadius: '12px' }} />
+             <img src="/Images/Yacht at sea.png" alt="Yacht at sea" style={{ width: '100%', height: '100%', minHeight: '300px', objectFit: 'cover', borderRadius: '12px' }} />
           </div>
         </div>
 
         {/* Bottom CTA Banner */}
-        <div style={{ maxWidth: '1200px', margin: '4rem auto 0 auto', backgroundColor: '#0f172a', borderRadius: '12px', padding: '2rem 3rem', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '2rem' }}>
+        <div style={{ maxWidth: '1200px', margin: '4rem auto 0 auto', backgroundColor: '#f0f9ff', border: '1px solid #bfdbfe', borderRadius: '12px', padding: '2rem 3rem', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '2rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                <path d="M0 10 Q 7.5 0, 15 10 T 30 10 T 45 10 T 60 10"></path>
             </svg>
-            <h3 style={{ color: '#fff', fontSize: '1.1rem', margin: 0, fontWeight: '500' }}>
+            <h3 style={{ color: '#0f172a', fontSize: '1.1rem', margin: 0, fontWeight: '500' }}>
               Ready to create unforgettable memories on the water?
             </h3>
           </div>
-          <button className="btn-ship" style={{ background: '#ffffff', color: '#0f172a', border: '1px solid #0f172a', borderRadius: '4px', padding: '0.75rem 1.5rem', fontWeight: 'bold' }}>
+          <button className="btn-ship" style={{ background: '#0284c7', color: '#ffffff', border: '1px solid #0284c7', borderRadius: '4px', padding: '0.75rem 1.5rem', fontWeight: 'bold' }}>
             <svg className="ship-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M2 21c3.333-2 6.667-2 10 0s6.667 2 10 0" />
               <path d="M4 18l1.5-6h13L20 18" />

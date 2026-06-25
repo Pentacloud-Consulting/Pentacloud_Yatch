@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function MembershipTypes() {
   return (
-    <div style={{ backgroundColor: '#ffffff', padding: '2rem 5%', fontFamily: 'sans-serif', color: '#333' }}>
+    <div style={{ backgroundColor: '#ffffff', padding: '1rem 5%', fontFamily: 'sans-serif', color: '#333' }}>
       
       {/* Header Section */}
-      <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 2rem auto' }}>
-        <span style={{ color: '#0284c7', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '1rem' }}>
+      <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 1rem auto' }}>
+        <span style={{ color: '#0284c7', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '0.75rem', fontWeight: 'bold', display: 'block', marginBottom: '0.5rem' }}>
           MEMBERSHIP TYPES
         </span>
-        <h2 style={{ fontSize: '2.5rem', color: '#0f172a', marginBottom: '1rem', fontFamily: '"Playfair Display", serif', fontWeight: '500' }}>
+        <h2 style={{ fontSize: '1.8rem', color: '#0f172a', marginBottom: '0.5rem', fontFamily: '"Playfair Display", serif', fontWeight: '500' }}>
           Two Memberships. One Unmatched Experience.
         </h2>
-        <p style={{ color: '#555', fontSize: '1.05rem', lineHeight: '1.6', margin: '0 auto 1.5rem auto' }}>
+        <p style={{ color: '#555', fontSize: '0.9rem', lineHeight: '1.5', margin: '0 auto 1rem auto' }}>
           People value different time slots and on-water activities differently, so we have<br/>
           two main membership types: Explorer and Executive. <strong>What kind of Member are you?</strong>
         </p>
@@ -22,49 +22,49 @@ export default function MembershipTypes() {
       </div>
 
       {/* Main Container for Cards & VS */}
-      <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
+      <div style={{ maxWidth: '850px', margin: '0 auto', position: 'relative', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem' }}>
         
         {/* VS Divider */}
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-           <div style={{ width: '1px', height: '280px', backgroundColor: '#e0e0e0', position: 'absolute', top: '-280px', left: '50%', transform: 'translateX(-50%)' }}></div>
-           <div style={{ width: '40px', height: '40px', backgroundColor: '#fff', border: '1px solid #e0e0e0', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '0.85rem', color: '#0f172a', zIndex: 2, boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+           <div style={{ width: '1px', height: '240px', backgroundColor: '#e0e0e0', position: 'absolute', top: '-240px', left: '50%', transform: 'translateX(-50%)' }}></div>
+           <div style={{ width: '32px', height: '32px', backgroundColor: '#fff', border: '1px solid #e0e0e0', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '0.75rem', color: '#0f172a', zIndex: 2, boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
              VS
            </div>
-           <div style={{ width: '1px', height: '280px', backgroundColor: '#e0e0e0', position: 'absolute', bottom: '-280px', left: '50%', transform: 'translateX(-50%)' }}></div>
+           <div style={{ width: '1px', height: '240px', backgroundColor: '#e0e0e0', position: 'absolute', bottom: '-240px', left: '50%', transform: 'translateX(-50%)' }}></div>
         </div>
 
         {/* Card 1: EXECUTIVE */}
-        <div style={{ flex: '1 1 350px', maxWidth: '400px', backgroundColor: '#ffffff', borderRadius: '16px', overflow: 'hidden', border: '1px solid #eaeaea', boxShadow: '0 10px 30px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ flex: '1 1 350px', maxWidth: '380px', backgroundColor: '#ffffff', borderRadius: '12px', overflow: 'hidden', border: '1px solid #eaeaea', boxShadow: '0 5px 20px rgba(0,0,0,0.03)', display: 'flex', flexDirection: 'column' }}>
           
           {/* Top Image Area */}
-          <div style={{ position: 'relative', height: '120px' }}>
-            <img src="/Yacht/yatch2.jpg" alt="Executive Membership" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            <div style={{ position: 'absolute', bottom: '-25px', left: '50%', transform: 'translateX(-50%)', width: '50px', height: '50px', backgroundColor: '#0284c7', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '3px solid #fff' }}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <div style={{ position: 'relative', height: '90px' }}>
+            <img src="/Images/MemberShip type-1.png" alt="Executive Membership" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <div style={{ position: 'absolute', bottom: '-20px', left: '50%', transform: 'translateX(-50%)', width: '40px', height: '40px', backgroundColor: '#0284c7', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '3px solid #fff' }}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="5" r="3"></circle><line x1="12" y1="22" x2="12" y2="8"></line><path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
               </svg>
             </div>
           </div>
 
           {/* Card Content */}
-          <div style={{ padding: '1.25rem 1.25rem 0 1.25rem', textAlign: 'center', flex: 1 }}>
-            <h3 style={{ fontSize: '1.4rem', color: '#0284c7', fontWeight: 'bold', marginBottom: '0.5rem', letterSpacing: '1px', marginTop: '1rem' }}>EXECUTIVE</h3>
+          <div style={{ padding: '1rem 1rem 0 1rem', textAlign: 'center', flex: 1 }}>
+            <h3 style={{ fontSize: '1.2rem', color: '#0284c7', fontWeight: 'bold', marginBottom: '0.5rem', letterSpacing: '1px', marginTop: '1rem' }}>EXECUTIVE</h3>
             
-            <div style={{ position: 'relative', display: 'inline-block', marginBottom: '1rem' }}>
-              <div style={{ backgroundColor: '#0284c7', color: '#fff', padding: '0.3rem 1rem', fontSize: '0.75rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px', position: 'relative', zIndex: 1 }}>
+            <div style={{ position: 'relative', display: 'inline-block', marginBottom: '0.75rem' }}>
+              <div style={{ backgroundColor: '#0284c7', color: '#fff', padding: '0.25rem 0.75rem', fontSize: '0.65rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px', position: 'relative', zIndex: 1 }}>
                 WEEKDAY ACCESS
               </div>
               {/* Ribbon tails */}
-              <div style={{ position: 'absolute', top: 0, bottom: 0, left: '-8px', width: '16px', backgroundColor: '#0284c7', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%)', zIndex: 0 }}></div>
-              <div style={{ position: 'absolute', top: 0, bottom: 0, right: '-8px', width: '16px', backgroundColor: '#0284c7', clipPath: 'polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%)', zIndex: 0 }}></div>
+              <div style={{ position: 'absolute', top: 0, bottom: 0, left: '-6px', width: '12px', backgroundColor: '#0284c7', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%)', zIndex: 0 }}></div>
+              <div style={{ position: 'absolute', top: 0, bottom: 0, right: '-6px', width: '12px', backgroundColor: '#0284c7', clipPath: 'polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%)', zIndex: 0 }}></div>
             </div>
 
-            <p style={{ color: '#555', fontSize: '0.85rem', marginBottom: '1.5rem', padding: '0 1rem' }}>
-              Perfect for families and professionals<br/>who boat during the week.
+            <p style={{ color: '#555', fontSize: '0.8rem', marginBottom: '1rem', padding: '0 0.5rem', lineHeight: '1.4' }}>
+              Perfect for families and professionals who boat during the week.
             </p>
 
             {/* List Details */}
-            <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '1.25rem', marginBottom: '1.5rem' }}>
+            <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1rem' }}>
               
               {/* Access */}
               <div style={{ display: 'flex', gap: '1rem' }}>
@@ -111,44 +111,44 @@ export default function MembershipTypes() {
           </div>
 
           {/* Card Footer */}
-          <div style={{ backgroundColor: '#f0f9ff', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', marginTop: 'auto' }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <span style={{ color: '#0284c7', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '0.5px' }}>GREAT BALANCE OF ACCESS & VALUE</span>
+          <div style={{ backgroundColor: '#f0f9ff', padding: '0.75rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', marginTop: 'auto' }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0284c7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span style={{ color: '#0284c7', fontWeight: 'bold', fontSize: '0.7rem', letterSpacing: '0.5px' }}>GREAT BALANCE OF ACCESS & VALUE</span>
           </div>
         </div>
 
         {/* Card 2: EXPLORER */}
-        <div style={{ flex: '1 1 350px', maxWidth: '400px', backgroundColor: '#ffffff', borderRadius: '16px', overflow: 'hidden', border: '1px solid #eaeaea', boxShadow: '0 10px 30px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ flex: '1 1 350px', maxWidth: '380px', backgroundColor: '#ffffff', borderRadius: '12px', overflow: 'hidden', border: '1px solid #eaeaea', boxShadow: '0 5px 20px rgba(0,0,0,0.03)', display: 'flex', flexDirection: 'column' }}>
           
           {/* Top Image Area */}
-          <div style={{ position: 'relative', height: '120px' }}>
-            <img src="/Yacht/yatch3.jpg" alt="Explorer Membership" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            <div style={{ position: 'absolute', bottom: '-25px', left: '50%', transform: 'translateX(-50%)', width: '50px', height: '50px', backgroundColor: '#0ea5e9', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '3px solid #fff' }}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <div style={{ position: 'relative', height: '90px' }}>
+            <img src="/Images/MemberShip type-2.png" alt="Explorer Membership" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <div style={{ position: 'absolute', bottom: '-20px', left: '50%', transform: 'translateX(-50%)', width: '40px', height: '40px', backgroundColor: '#0ea5e9', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '3px solid #fff' }}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
               </svg>
             </div>
           </div>
 
           {/* Card Content */}
-          <div style={{ padding: '1.25rem 1.25rem 0 1.25rem', textAlign: 'center', flex: 1 }}>
-            <h3 style={{ fontSize: '1.4rem', color: '#0ea5e9', fontWeight: 'bold', marginBottom: '0.5rem', letterSpacing: '1px', marginTop: '1rem' }}>EXPLORER</h3>
+          <div style={{ padding: '1rem 1rem 0 1rem', textAlign: 'center', flex: 1 }}>
+            <h3 style={{ fontSize: '1.2rem', color: '#0ea5e9', fontWeight: 'bold', marginBottom: '0.5rem', letterSpacing: '1px', marginTop: '1rem' }}>EXPLORER</h3>
             
-            <div style={{ position: 'relative', display: 'inline-block', marginBottom: '1rem' }}>
-              <div style={{ backgroundColor: '#0ea5e9', color: '#fff', padding: '0.3rem 1rem', fontSize: '0.75rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px', position: 'relative', zIndex: 1 }}>
+            <div style={{ position: 'relative', display: 'inline-block', marginBottom: '0.75rem' }}>
+              <div style={{ backgroundColor: '#0ea5e9', color: '#fff', padding: '0.25rem 0.75rem', fontSize: '0.65rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px', position: 'relative', zIndex: 1 }}>
                 UNLIMITED ACCESS
               </div>
               {/* Ribbon tails */}
-              <div style={{ position: 'absolute', top: 0, bottom: 0, left: '-8px', width: '16px', backgroundColor: '#0ea5e9', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%)', zIndex: 0 }}></div>
-              <div style={{ position: 'absolute', top: 0, bottom: 0, right: '-8px', width: '16px', backgroundColor: '#0ea5e9', clipPath: 'polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%)', zIndex: 0 }}></div>
+              <div style={{ position: 'absolute', top: 0, bottom: 0, left: '-6px', width: '12px', backgroundColor: '#0ea5e9', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%)', zIndex: 0 }}></div>
+              <div style={{ position: 'absolute', top: 0, bottom: 0, right: '-6px', width: '12px', backgroundColor: '#0ea5e9', clipPath: 'polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%)', zIndex: 0 }}></div>
             </div>
 
-            <p style={{ color: '#555', fontSize: '0.85rem', marginBottom: '1.5rem', padding: '0 1rem' }}>
-              Perfect for boaters who want<br/>maximum flexibility.
+            <p style={{ color: '#555', fontSize: '0.8rem', marginBottom: '1rem', padding: '0 0.5rem', lineHeight: '1.4' }}>
+              Perfect for boaters who want maximum flexibility.
             </p>
 
             {/* List Details */}
-            <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '1.25rem', marginBottom: '1.5rem' }}>
+            <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1rem' }}>
               
               {/* Access */}
               <div style={{ display: 'flex', gap: '1rem' }}>
@@ -195,16 +195,16 @@ export default function MembershipTypes() {
           </div>
 
           {/* Card Footer */}
-          <div style={{ backgroundColor: '#e0f2fe', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', marginTop: 'auto' }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 8v10M16 8v10M4 12h16"></path><circle cx="12" cy="12" r="10"></circle></svg>
-            <span style={{ color: '#0ea5e9', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '0.5px' }}>UNLIMITED BOATING ACCESS</span>
+          <div style={{ backgroundColor: '#e0f2fe', padding: '0.75rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', marginTop: 'auto' }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 8v10M16 8v10M4 12h16"></path><circle cx="12" cy="12" r="10"></circle></svg>
+            <span style={{ color: '#0ea5e9', fontWeight: 'bold', fontSize: '0.7rem', letterSpacing: '0.5px' }}>UNLIMITED BOATING ACCESS</span>
           </div>
         </div>
 
       </div>
 
       {/* Bottom Info Banner */}
-      <div style={{ maxWidth: '900px', margin: '2rem auto 0 auto', border: '1px solid #eaeaea', borderRadius: '12px', padding: '1.25rem 1.5rem', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem', backgroundColor: '#fff', boxShadow: '0 4px 20px rgba(0,0,0,0.02)' }}>
+      <div style={{ maxWidth: '850px', margin: '1rem auto 0 auto', border: '1px solid #eaeaea', borderRadius: '12px', padding: '1rem 1.5rem', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', backgroundColor: '#fff', boxShadow: '0 4px 20px rgba(0,0,0,0.02)' }}>
         
         {/* Left Side */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flex: '1 1 300px' }}>
